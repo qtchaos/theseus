@@ -67,6 +67,8 @@ jobs:
       - name: Install frontend dependencies
         run: pnpm install
 
+      - uses: rui314/setup-mold@v1
+      
       - name: build app (macos)
         uses: tauri-apps/tauri-action@v0
         id: build_os_mac
