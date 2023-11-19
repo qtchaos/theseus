@@ -384,6 +384,7 @@ async function refreshDir() {
         id="java-args"
         v-model="settings.javaArgs"
         autocomplete="off"
+        spellcheck="false"
         type="text"
         class="installation-input"
         placeholder="Enter java arguments..."

@@ -216,6 +216,7 @@
         id="java-args"
         v-model="javaArgs"
         autocomplete="off"
+        spellcheck="false"
         :disabled="!overrideJavaArgs"
         type="text"
         class="installation-input"
